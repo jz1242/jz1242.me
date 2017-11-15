@@ -1,16 +1,17 @@
 .App {
   text-align: center;
+  
 }
 
-.App-logo {
+.App-logo { 
   animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+  height: 40px;
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+  background-color: rgba(79, 109, 243, 0.66);
+  height: 20px;
+  padding: 10px;
   color: white;
 }
 
@@ -21,7 +22,32 @@
 .App-intro {
   font-size: large;
 }
-
+.navbar {
+  background:
+  radial-gradient(black 15%, transparent 16%) 0 0,
+  radial-gradient(black 15%, transparent 16%) 8px 8px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+  background-color:#282828;
+  background-size:16px 16px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 30px; 
+  opacity: .8;
+  
+} 
+.navbar-light .navbar-brand {
+  color: rgba(13, 168, 240, 0.9) !important;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(13, 240, 62, 0.9) !important;
+}
+.icon {
+  color: #007bff;
+  transition: color 10ms ease-in;
+  padding: .1em;
+}
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
