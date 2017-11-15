@@ -22,31 +22,22 @@
 .App-intro {
   font-size: large;
 }
-.navbar {
-  background:
-  radial-gradient(black 15%, transparent 16%) 0 0,
-  radial-gradient(black 15%, transparent 16%) 8px 8px,
-  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
-  radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
-  background-color:#282828;
-  background-size:16px 16px;
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-radius: 30px; 
-  opacity: .8;
-  
-} 
-.navbar-light .navbar-brand {
-  color: rgba(13, 168, 240, 0.9) !important;
+#face{
+  border-radius:30px;
 }
-.navbar-light .navbar-nav .nav-link {
-  color: rgba(13, 240, 62, 0.9) !important;
+
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  opacity: 1;
+  background-color: #80ffd6 !important;
+  border-radius: 0.3rem;
 }
 .icon {
-  color: #007bff;
-  transition: color 10ms ease-in;
-  padding: .1em;
+  color: rgb(4, 20, 112);
+  transition: color 125ms ease-in;
+  padding: 0.3em;
+  margin-bottom: 0.01em;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
