@@ -25,7 +25,7 @@ class App extends Component {
           <img src={img} height="100" id='face' />
           <h1 className="display-3">Hello, World! 
           </h1>
-          <p className="lead">My name is Jason Zhang and I'm a Computer Engineering Major at Johns Hopkins University! I find tech facinating
+          <p className="lead">My name is Jason Zhang and I'm a Computer Engineering Major at Johns Hopkins University! I find tech fascinating
             and I want to use programming to solve all of my daily needs.
           </p>
           <hr className="my-2" />
