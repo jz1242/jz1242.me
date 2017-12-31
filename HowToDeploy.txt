@@ -1,0 +1,3 @@
+redeploy changes:
+npm run build
+npm run deploy
