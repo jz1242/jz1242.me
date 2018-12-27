@@ -1,7 +1,7 @@
 {
-  "name": "my-app",
+  "name": "jz1242.me",
   "version": "0.1.0",
-  "homepage": "https://jz1242.github.io/personalsite",
+  "homepage": "http://jz1242.github.io",
   "private": true,
   "dependencies": {
     "bootstrap": "4.0.0-beta",
