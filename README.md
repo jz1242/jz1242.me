@@ -1,1 +1,1 @@
-## This is my personal website built on React
+# Personal site built with React
